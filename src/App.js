@@ -1,29 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Contact from './components/Contact';
+import ContactList from './components/ContactList';
 
 function App() {
   return (
     <div className="App">
 
-      <Contact
-       name="Anita Sutton" 
-       avatar="https://media.istockphoto.com/photos/fashion-portrait-of-a-modern-girl-picture-id507838634" 
-       online
-      /> 
+      <ContactList /> 
       
-      <Contact
-      name="Clara Sutton" 
-      avatar="https://media.istockphoto.com/photos/fashion-portrait-of-a-modern-girl-picture-id507838634" 
-      
-     /> 
-
-      <Contact
-       name="Françoise Sutton" 
-       avatar="https://media.istockphoto.com/photos/fashion-portrait-of-a-modern-girl-picture-id507838634" 
-       online
-      /> 
     </div>
   );
 }
