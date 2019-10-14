@@ -10,7 +10,7 @@ let list = [
   {
     name: "Johanne Sutton",
     avatar: 'https://randomuser.me/api/portraits/women/64.jpg',
-    isonline: true
+    isonline: false
   },
   {
     name: "Devon Herrera",
@@ -25,7 +25,7 @@ let list = [
   {
     name: "Nicole Cook",
     avatar: 'https://randomuser.me/api/portraits/women/15.jpg',
-    isonline : true
+    isonline : false
   },
 ];
 
